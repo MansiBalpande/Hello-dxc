@@ -1,8 +1,10 @@
 package students;
 
+import objectclass.Util;
+
 public class Constructor {
-    String name;
-    int age;
+    String name; //partition
+    int age; //
     
     /** 
      * default constructor -- Mansi
@@ -12,7 +14,7 @@ public class Constructor {
 	public Constructor(String name, int age) {
 		super();
 		this.name = name;
-		this.age = age;
+		this.age = Util.incrementByTen(age);
 	}
     /**
     * shiny constructor-
