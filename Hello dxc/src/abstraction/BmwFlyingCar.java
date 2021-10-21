@@ -2,12 +2,19 @@ package abstraction;
 
 public class BmwFlyingCar extends FlyingCar {
 
-	
-	public void stopCar() {
-		//TODO A uto-generated method stub
+	@Override
+	public void StopCar() {
+		
 		
 }
 	
-	
-	public void flyCar
+	@Override
+	public void flyCar() {
+		
+		
+	}
+	@Override
+	public void landCar() {
+
+	}
 }
